@@ -1,16 +1,12 @@
 {
-  "name": "baileys-n8n-vendedor",
+  "name": "railway-test-bot",
   "version": "1.0.0",
-  "description": "Bot de WhatsApp con Baileys conectado a n8n e IA para ventas",
+  "description": "Test básico para validar ejecución en Railway",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
     "node": "18.x"
-  },
-  "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
-    "axios": "^1.6.0"
   }
 }
