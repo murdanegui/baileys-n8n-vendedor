@@ -32,8 +32,8 @@ async function startSock() {
         console.log('📩 Mensaje recibido:', text);
 
         // Enlace a tu webhook de n8n
-        const response = await axios.post('https://TU_WEBHOOK_AQUI', {
-            from: msg.key.remoteJid,
+        const response = await axios.post('https://n8n.tudominio.com/webhook/ventas-bot', {
+        from: msg.key.remoteJid,
             message: text
         });
 
